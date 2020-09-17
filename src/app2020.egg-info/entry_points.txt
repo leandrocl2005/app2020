@@ -1,0 +1,3 @@
+[console_scripts]
+app2020 = app2020.console:main
+

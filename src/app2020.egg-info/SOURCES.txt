@@ -1,0 +1,9 @@
+setup.py
+src/app2020/__init__.py
+src/app2020/console.py
+src/app2020.egg-info/PKG-INFO
+src/app2020.egg-info/SOURCES.txt
+src/app2020.egg-info/dependency_links.txt
+src/app2020.egg-info/entry_points.txt
+src/app2020.egg-info/requires.txt
+src/app2020.egg-info/top_level.txt

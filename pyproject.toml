@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "app2020"
+version = "0.1.0"
+description = ""
+authors = ["leandrocl2005 <leandrocl2005@yahoo.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+app2020="app2020.console:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
