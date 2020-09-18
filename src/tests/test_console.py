@@ -4,18 +4,21 @@ import requests
 
 from app2020 import console
 
-# checks if program exit with status zero   
+
 @pytest.fixture
 def runner():
     return click.testing.CliRunner()
+
 
 @pytest.fixture
 def mock_wikipedia_random_page(mocker):
     return mocker.patch("app2020.wikipedia.random_page")
 
+
 def test_main_succeeds(runner, mock_requests_get):
     result = runner.invoke(console.main)
     assert result.exit_code == 0
+
 
 @pytest.mark.e2e
 def test_main_succeeds_in_production_env(runner):

@@ -1,4 +1,5 @@
 import textwrap
+
 import click
 
 
@@ -14,8 +15,6 @@ from . import __version__, wikipedia
     metavar="LANG",
     show_default=True,
 )
-
-
 @click.version_option(version=__version__)
 def main(language):
     """The hypermodern Python project."""
